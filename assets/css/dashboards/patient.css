@@ -1,0 +1,21 @@
+/* assets/css/dashboards/patient.css */
+
+.patient-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+.queue-num {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--accent-blue);
+    display: block;
+    margin: 10px 0;
+}
+
+@media (max-width: 900px) {
+    .patient-grid {
+        grid-template-columns: 1fr;
+    }
+}

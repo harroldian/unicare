@@ -1,0 +1,13 @@
+/* assets/css/landing.css */
+.landing-hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, var(--bg-primary), var(--bg-surface));
+}
+.landing-hero h1 { font-size: 3.2rem; color: var(--accent-blue); margin-bottom: 15px; }
+.landing-hero p { font-size: 1.25rem; color: var(--text-secondary); max-width: 700px; margin-bottom: 30px; }

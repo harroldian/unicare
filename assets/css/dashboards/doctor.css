@@ -1,0 +1,21 @@
+/* assets/css/dashboards/doctor.css & assets/css/dashboards/nurse.css */
+
+.patient-info-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    background-color: var(--bg-primary);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.patient-info-summary div {
+    font-size: 0.9rem;
+}
+
+.patient-info-summary strong {
+    color: var(--text-secondary);
+    display: block;
+    margin-bottom: 4px;
+}
